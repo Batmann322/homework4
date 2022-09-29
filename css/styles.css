@@ -83,12 +83,31 @@ body{
 .mail{
     color: var(--teal);
     margin-right: 50px;
-    
+}
+.mail::before{
+    content: "";
+    background-image: url(../images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
 }
 .tel{
     color: var(--teal);
+}
+.tel::before{
+    content: "";
+    background-image: url(../images/tell.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
     
-    
+ 
 }
 .mail:hover,
 .mail:focus{ 
@@ -103,6 +122,15 @@ body{
 .title{
     background-color: var(--grey);
     padding: 200px 482px 280px;
+}
+.title{
+    background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/fon.svg);
+    background-position: center;
+    background-size:cover;
 }
 .hero{
     flex-direction: column;
@@ -146,8 +174,36 @@ body{
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.71;
-    
 }
+
+.about-item::before{
+    display: inline-block;
+    margin-bottom: 30px;
+    content: "";
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-satellite::before{
+    background-image: url(../images/antenna.svg);
+}
+
+.icon-cloc::before{
+    background-image: url(../images/cloc.svg);
+}
+
+.icon-leptop::before{
+    background-image: url(../images/laptop.svg);
+}
+
+.icon-astronaut::before{
+    background-image: url(../images/astronaut.svg);
+}
+
 .about-item:not(:last-child){
     margin-right: 30px;
 }
@@ -192,6 +248,7 @@ body{
     color: #212121;;
     text-align: center;
 }
+
 .employee-position{
     margin-top: 10px;
     margin-bottom: 30px;
@@ -199,6 +256,53 @@ body{
     line-height: 1.18;
     text-align: center;
 }
+
+.fon-instagram{
+    display: inline-flex;
+    content: "";
+    margin-left: 32px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    background-image: url(../images/instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fon-twitter{
+    display: inline-flex;
+    content: "";
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+    background-image: url(../images/twiter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fon-facebook{
+    display: inline-flex;
+    content: "";
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+    background-image: url(../images/facebook.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fon-linkedin{
+    display: inline-flex;
+    content: "";
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+    background-image: url(../images/linkedin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .footer{
     padding: 60px;
     height: 252px;
@@ -219,9 +323,9 @@ body{
     color: var(--teal);
     font-style: normal;
 }
+
 .footer-list-itam{
     padding-top: 9px;
-
 }
 
 .button-li{
