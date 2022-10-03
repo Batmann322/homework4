@@ -303,6 +303,87 @@ body{
     background-repeat: no-repeat;
 }
 
+.company{
+    justify-content: center;
+}
+
+.company:focus,
+.company:hover{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.company-yago{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    background-image: url(../images/yago.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.company-taglinehear{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    background-image: url(../images/tagline.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.company-com{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    background-image: url(../images/company.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.company-foster{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    background-image: url(../images/Fosterpeters.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.brand{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    background-image: url(../images/brand.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tagline{
+    content: "";
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    background-image: url(../images/tagline.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .footer{
     padding: 60px;
     height: 252px;
