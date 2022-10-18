@@ -32,9 +32,16 @@
             </ul>
            <ul class="contacts">
         <li class="contacts-itame">
-         <a class="mail d-flex" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <svg class="contacts-icone" width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+            </svg>
+         <a class="mail d-flex" href="mailto:info@devstudio.com">info@devstudio.com
+         </a>
         </li>
         <li class="contacts-itame">
+            <svg class="contacts-icone" width="10px" height="16px">
+                <use href="./images/symbol-defs.svg#icon-tell"></use>
+            </svg>
          <a class="tel d-flex" href="tell:+380961111111">+38 096 111 11 11</a>
         </li>
         </ul>
@@ -50,16 +57,40 @@
             <section class="container section">
                 <h2 hidden></h2>
             <ul class="d-flex">
-               <li class="about-item icon-satellite"><h3 class="title-list">УВАГА ДО ДЕТАЛЕЙ</h3> 
+               <li class="about-item">
+                <div class="backround-fon d-flex">
+                    <svg class="icon-satellite" width="65.32px" height="70px">
+                        <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                    </svg>
+                </div>
+                <h3 class="title-list">УВАГА ДО ДЕТАЛЕЙ</h3> 
                <p class="title-list-itam">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                </li>
-               <li class="about-item icon-cloc"><h3 class="title-list">ПУНКТУАЛЬНІСТЬ</h3>
+               <li class="about-item">
+                <div class="backround-fon d-flex">
+                    <svg class="icon-satellite" width="65.32px" height="70px">
+                        <use href="./images/symbol-defs.svg#icon-cloc"></use>
+                    </svg>
+                    </div>
+                <h3 class="title-list">ПУНКТУАЛЬНІСТЬ</h3>
                <p class="title-list-itam">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                </li>
-               <li class="about-item icon-leptop"><h3 class="title-list">ПЛАНУВАННЯ</h3>
+               <li class="about-item">
+                <div class="backround-fon d-flex">
+                    <svg class="icon-satellite" width="65.32px" height="70px">
+                        <use href="./images/symbol-defs.svg#icon-laptop"></use>
+                    </svg>
+                </div>
+                <h3 class="title-list">ПЛАНУВАННЯ</h3>
                <p class="title-list-itam">Так само консультація з широким активом значною мірою зумовлює.</p>
                </li>
-               <li class="about-item icon-astronaut"><h3 class="title-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+               <li class="about-item">
+                <div class="backround-fon d-flex">
+                    <svg class="icon-satellite" width="65.32px" height="70px">
+                        <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                    </svg>
+                </div>
+                <h3 class="title-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                <p class="title-list-itam">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                </li>
             </ul>
@@ -82,26 +113,36 @@
 
                         <h3 class="list-comand">Ігор Дем'яненко</h3>
                         <p class="employee-position">Product Designer</p>
-                        <a class="link" href="https://www.instagram.com/">
-                            <svg class="link-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                        <a class="link" href="https://twitter.com/?lang=uk">
-                            <svg class="link-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-twiter"></use>
-                            </svg>
-                        </a>
-                        <a class="link" href="https://uk-ua.facebook.com/">
-                            <svg class="link-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                        <a class="link" href="https://www.linkedin.com/">
-                            <svg class="link-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
+                        <ul class="d-flex team-link">
+                            <li class="links">
+                                <a class="link" href="https://www.instagram.com/">
+                                    <svg class="link-icon" width="20px" height="20px">
+                                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="links">
+                                <a class="link" href="https://twitter.com/?lang=uk">
+                                    <svg class="link-icon" width="20px" height="20px">
+                                        <use href="./images/symbol-defs.svg#icon-twiter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="links">
+                                <a class="link" href="https://uk-ua.facebook.com/">
+                                    <svg class="link-icon" width="20px" height="20px">
+                                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="links">
+                                <a class="link" href="https://www.linkedin.com/">
+                                    <svg class="link-icon" width="20px" height="20px">
+                                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li class="team-itam"><img src="./images/olgarepina.jpg" alt="Ольга Рєпіна" width="270" height="260">
@@ -109,26 +150,36 @@
                     
                         <h3 class="list-comand">Ольга Рєпіна</h3>
                         <p class="employee-position">Frontend Developer</p>
-                            <a class="link" href="https://www.instagram.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://twitter.com/?lang=uk">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-twiter"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://uk-ua.facebook.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://www.linkedin.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
+                            <ul class="d-flex team-link">
+                                <li class="links">
+                                    <a class="link" href="https://www.instagram.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="links">
+                                    <a class="link" href="https://twitter.com/?lang=uk">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-twiter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="links">
+                                    <a class="link" href="https://uk-ua.facebook.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="links">
+                                    <a class="link" href="https://www.linkedin.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                     </li>
 
                     <li class="team-itam"><img src="./images/nikolaytarasov.jpg" alt="Микола Тарасов" width="270" height="260">
@@ -136,51 +187,71 @@
                     
                         <h3 class="list-comand">Микола Тарасов</h3>
                         <p class="employee-position">Marketing</p>
-                            <a class="link" href="https://www.instagram.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://twitter.com/?lang=uk">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-twiter"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://uk-ua.facebook.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                            <a class="link" href="https://www.linkedin.com/">
-                                <svg class="link-icon" width="20px" height="20px">
-                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
+                            <ul class="d-flex team-link">
+                                <li class="links">
+                                    <a class="link" href="https://www.instagram.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="links">
+                                    <a class="link" href="https://twitter.com/?lang=uk">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-twiter"></use>
+                                        </svg>
+                                    </a>
+                                </li class="links">
+                                <li>
+                                    <a class="link" href="https://uk-ua.facebook.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="links">
+                                    <a class="link" href="https://www.linkedin.com/">
+                                        <svg class="link-icon" width="20px" height="20px">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                     </li>
 
                     <li class="team-itam"><img src="./images/mihailermakov.jpg" alt="Михайло Єрмаков" width="270" height="260">
                         <h3 class="list-comand">Михайло Єрмаков</h3>
                         <p class="employee-position">UI Designer</p>
+                        <ul class="d-flex team-link">
+                            <li class="links">
                         <a class="link" href="https://www.instagram.com/">
                             <svg class="link-icon" width="20px" height="20px">
                                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
                             </svg>
-                        </a>
+                           </a>
+                        </li class="links">
+                        <li>
                         <a class="link" href="https://twitter.com/?lang=uk">
                             <svg class="link-icon" width="20px" height="20px">
                                 <use href="./images/symbol-defs.svg#icon-twiter"></use>
                             </svg>
                         </a>
+                        </li>
+                        <li class="links">
                         <a class="link" href="https://uk-ua.facebook.com/">
                             <svg class="link-icon" width="20px" height="20px">
                                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
                             </svg>
-                        </a>
+                         </a>
+                        </li>
+                        <li class="links">
                         <a class="link" href="https://www.linkedin.com/">
                             <svg class="link-icon" width="20px" height="20px">
                                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
+                    </li>
+                    </ul>
                     </li>
                 </ul>
             </section>
@@ -223,8 +294,9 @@
         </main>
         
         <footer class="footer">
-            
-                <address class="container">
+            <ul class="footer-container container">
+                <li class="footer-left">
+                <address class="">
                      <a class="web" href="./index.html">Web<span class="studio-bottom">Studio</span></a>
                     
                     <ul class="footer-list">
@@ -238,6 +310,42 @@
                 </li>
             </ul>
                 </address>
+</li>
+
+                <li class="">
+                    <h3 class="text-footer">приєднуйтесь</h3>
+                    <ul class="social">  
+                    <li class="social-item">
+                        <a class="link-footer" href="https://www.instagram.com/">
+                            <svg class="icon-footer" width="20px" height="20xp">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link-footer" href="https://twitter.com/?lang=uk">
+                            <svg class="icon-footer" width="20px" height="20px">
+                                <use href="./images/symbol-defs.svg#icon-twiter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link-footer" href="https://uk-ua.facebook.com/">
+                            <svg class="icon-footer" width="20px" height="20px">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link-footer" href="https://www.linkedin.com/">
+                            <svg class="icon-footer" width="20px" height="20px">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                </div>
     </footer>
         
 </body>
