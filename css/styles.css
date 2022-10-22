@@ -294,49 +294,69 @@ body{
 }
 
 .company-yago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .company-yago:hover{
     cursor: pointer;
-fill:  #2196F3;
-border: 1px solid #2196F3;
+    fill:  #2196F3;
+    border: 1px solid #2196F3;
 }
 
 .company-taglinehear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .company-taglinehear:hover{
-cursor: pointer;
-fill: #2196F3;
+    cursor: pointer;
+    fill: #2196F3;
     border: 1px solid #2196F3;
 }
 
 .company-com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .company-com:hover{
-cursor: pointer;
+    cursor: pointer;
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
 
 .company-foster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .company-foster:hover{
@@ -346,10 +366,15 @@ cursor: pointer;
 }
 
 .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .brand:hover{
@@ -359,9 +384,14 @@ cursor: pointer;
 }
 
 .tagline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
 .tagline:hover{
